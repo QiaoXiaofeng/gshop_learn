@@ -28,6 +28,8 @@ module.exports = {
     'indent': 0,
     'no-new': 0,
     'eol-last': 0,
-    'semi': 0
+    'semi': 0,
+    'quotes': 0,
+    'space-before-function-paren': 0
   }
 }

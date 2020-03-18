@@ -1,13 +1,23 @@
 <template>
   <div id="app">
-    app
-    <router-view></router-view>
+    <router-view />
+    <FooterGuide />
   </div>
 </template>
 
 <script>
-export default {};
+import FooterGuide from "./components/FooterGuide/FooterGuide";
+export default {
+  components: {
+    FooterGuide
+  }
+};
 </script>
 
-<style>
+<style lang="stylus" rel="stylesheet/stylus">
+#app
+  width 100%
+  height 100%
+  background #f5f5f5
+  position relative
 </style>
