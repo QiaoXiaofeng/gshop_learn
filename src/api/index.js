@@ -1,5 +1,4 @@
 /* 请求接口模块
-
 返回Promise对象 */
 import ajax from './ajax'
 
