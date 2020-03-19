@@ -1,5 +1,4 @@
 /* ajax请求函数模块
-
 返回值：promise
 */
 import axios from 'axios'
