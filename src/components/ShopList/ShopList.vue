@@ -39,7 +39,7 @@
       </li>
     </ul>
     <ul v-else>
-      <li v-for="ii in 6">
+      <li v-for="ii in 6" :key="ii">
         <img src="./images/shop_back.svg" alt="back">
       </li>
     </ul>
